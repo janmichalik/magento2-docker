@@ -1,0 +1,13 @@
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Jmic_ProductGrid::css/source/_module.less"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Jmic\ProductGrid\Block\ProductGrid"
+                   name="custom.product.grid"
+                   template="Jmic_ProductGrid::product/grid.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

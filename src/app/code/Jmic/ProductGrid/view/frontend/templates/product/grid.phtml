@@ -1,0 +1,14 @@
+<?php
+/** @var \Jmic\ProductGrid\Block\ProductGrid $block */
+$products = $block->getProductCollection();
+?>
+
+<div class="product-grid">
+    <?php foreach ($products as $product): ?>
+        <div class="product-item">
+            <a href="<?= $product->getProductUrl() ?>">
+                <?= $product->getName();?>
+            </a>
+        </div>
+    <?php endforeach; ?>
+</div>

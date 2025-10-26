@@ -1,9 +1,15 @@
 .clock {
+    background-color: #373330;
+    color: #F7F3EB;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     gap: 14px;
+    justify-content: center;
+    min-width: 280px;
+    padding: 5px;
     position: absolute;
     right: 0;
+    text-align: center;
     top: 0;
 }
