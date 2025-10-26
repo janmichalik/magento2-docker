@@ -1,0 +1,35 @@
+# Magento 2 (w src/)
+src/generated/
+src/var/
+!src/var/.htaccess
+src/pub/static/
+!src/pub/static/.htaccess
+src/pub/media/
+!src/pub/media/.htaccess
+src/vendor/
+src/composer.lock
+src/node_modules/
+src/package-lock.json
+src/yarn.lock
+src/app/etc/env.php
+src/app/etc/config.php
+src/setup/src/*/Test/
+src/setup/src/*/dev/tests/
+src/test/
+src/phpunit.xml
+src/coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Cache / temp
+*.cache
+*.tmp
+*.bak
